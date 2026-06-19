@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Netflix India – Watch TV Shows Online</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India – Watch TV Shows Online</title>
 <link rel="stylesheet" href="p1.css">
 </head>
-<body>
 
+<body>
+    
 <section class="hero">
     <nav>
         <img src="n2.png" class="logo">
@@ -31,86 +33,114 @@
     </div>
 </section>
 
+<!-- ================= TRENDING (UPGRADED) ================= -->
 <section class="trending">
     <h2>Trending Now</h2>
 
-    <div class="row">
-        <div class="poster">
-            <span class="rank">1</span>
-            <span class="netflix">N</span>
-            <img src="stranger.jpg">
+    <div class="slider">
+        <button class="scroll-btn left" onclick="scrollRow(this,-1)">‹</button>
+
+        <div class="row">
+
+            <div class="poster" data-trailer="https://www.youtube.com/embed/b9EkMc79ZSU">
+                <span class="rank">1</span>
+                <span class="netflix">N</span>
+                <img src="stranger.jpg">
+            </div>
+
+            <div class="poster" data-trailer="https://www.youtube.com/embed/jYC1tLw8Zy8">
+                <span class="rank">2</span>
+                <span class="netflix">N</span>
+                <img src="Zootopia2.jpg">
+            </div>
+
+            <div class="poster" data-trailer="https://www.youtube.com/embed/6ZfuNTqbHE8">
+                <span class="rank">3</span>
+                <span class="netflix">N</span>
+                <img src="dhurandar.jpg">
+            </div>
+
+            <div class="poster" data-trailer="https://www.youtube.com/embed/ATJYac_dORw">
+                <span class="rank">4</span>
+                <span class="netflix">N</span>
+                <img src="demon.jpg">
+            </div>
+
+            <div class="poster" data-trailer="https://www.youtube.com/embed/hRFY_Fesa9Q">
+                <span class="rank">5</span>
+                <span class="netflix">N</span>
+                <img src="badboys.jpg">
+            </div>
+
+            <div class="poster" data-trailer="https://www.youtube.com/embed/TcMBFSGVi1c">
+                <span class="rank">6</span>
+                <span class="netflix">N</span>
+                <img src="red.jpg">
+            </div>
+
+            <div class="poster" data-trailer="https://www.youtube.com/embed/6ZfuNTqbHE8">
+                <span class="rank">7</span>
+                <span class="netflix">N</span>
+                <img src="saiyaara.jpg">
+            </div>
+
+            <div class="poster" data-trailer="https://www.youtube.com/embed/K0eDlFX9GMc">
+                <span class="rank">8</span>
+                <span class="netflix">N</span>
+                <img src="3idiots.jpg">
+            </div>
+
+            <div class="poster" data-trailer="https://www.youtube.com/embed/CaimKeDcudo">
+                <span class="rank">9</span>
+                <span class="netflix">N</span>
+                <img src="encanto.jpg">
+            </div>
+
+            <div class="poster" data-trailer="https://www.youtube.com/embed/5PSNL1qE6VY">
+                <span class="rank">10</span>
+                <span class="netflix">N</span>
+                <img src="avatar.jpg">
+            </div>
+
         </div>
-        <div class="poster">
-            <span class="rank">2</span>
-            <span class="netflix">N</span>
-            <img src="Zootopia2.jpg">
-        </div>
-        <div class="poster">
-            <span class="rank">3</span>
-            <span class="netflix">N</span>
-            <img src="dhurandar.jpg">
-        </div>
-        <div class="poster">
-            <span class="rank">4</span>
-            <span class="netflix">N</span>
-            <img src="demon.jpg">
-        </div>
-        <div class="poster">
-            <span class="rank">5</span>
-            <span class="netflix">N</span>
-            <img src="badboys.jpg">
-        </div>
-        <div class="poster">
-            <span class="rank">6</span>
-            <span class="netflix">N</span>
-            <img src="red.jpg">
-        </div>
-        <div class="poster">
-            <span class="rank">7</span>
-            <span class="netflix">N</span>
-            <img src="saiyaara.jpg">
-        </div>
-        <div class="poster">
-            <span class="rank">8</span>
-            <span class="netflix">N</span>
-            <img src="3idiots.jpg">
-        </div>
-        <div class="poster">
-            <span class="rank">9</span>
-            <span class="netflix">N</span>
-            <img src="encanto.jpg">
-        </div>
-        <div class="poster">
-            <span class="rank">10</span>
-            <span class="netflix">N</span>
-            <img src="avatar.jpg">
-        </div>
+
+        <button class="scroll-btn right" onclick="scrollRow(this,1)">›</button>
     </div>
 </section>
 
+<!-- ================= REASONS ================= -->
 <section class="reasons">
     <h2>More reasons to join</h2>
 
     <div class="cards">
+
         <div class="card">
             <h3>Enjoy on your TV</h3>
-            <p>Watch on smart TVs, PlayStation, Xbox, Chromecast and more.</p>
+            <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+            <img src="icon1.png" alt="">
         </div>
+
         <div class="card">
-            <h3>Download shows</h3>
-            <p>Save favourites and watch offline.</p>
+            <h3>Download your shows to watch offline</h3>
+            <p>Save your favourites easily and always have something to watch.</p>
+            <img src="icon2.png" alt="">
         </div>
+
         <div class="card">
             <h3>Watch everywhere</h3>
-            <p>Stream on phone, tablet, laptop and TV.</p>
+            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            <img src="icon3.png" alt="">
         </div>
+
         <div class="card">
-            <h3>Kids profiles</h3>
-            <p>A safe space made just for kids.</p>
+            <h3>Create profiles for kids</h3>
+            <p>Send kids on adventures with their favourite characters in a space made just for them — free with your membership.</p>
+            <img src="icon4.png" alt="">
         </div>
+
     </div>
 </section>
-
+<!-- ================= FAQ ================= -->
 <section class="faq">
     <h2>Frequently Asked Questions</h2>
 
@@ -147,8 +177,9 @@
     </div>
 </section>
 
+<!-- ================= FOOTER ================= -->
 <footer>
-    <p>Questions? Call 000-800-919-1743</p>
+    <p>Questions? Call 000-800-919-1234</p>
 
     <div class="footer-links">
         <a>FAQ</a><a>Help Centre</a><a>Account</a><a>Media Centre</a>
@@ -163,6 +194,19 @@
 
     <p class="region">Netflix India</p>
 </footer>
+
+<!-- ================= JS ================= -->
+ 
+<script>
+function scrollRow(btn, direction) {
+    const row = btn.parentElement.querySelector(".row");
+    row.scrollBy({
+        left: direction * 400,
+        behavior: "smooth"
+    });
+}
+</script>
+<script src="script.js"></script>
 
 </body>
 </html>
